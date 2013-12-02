@@ -1,0 +1,859 @@
+ODBC:
+odbc:
+Stack trace
+Database Engine error
+OleDbException
+Sorry, could not execute query
+Error has occurred
+error occured
+Could not update
+Error with SQL Query
+Query error
+SQL Provider Error
+SQL Error
+In exception catcher
+SqlException caught
+There was an error with the data provider
+An ERROR occured while executing the query
+Error executing statement
+Error creating insert statement
+database problem
+Error adding
+Error updating
+Error deleting
+Failed to excute sql
+Failed to add
+Failed to update
+Failed to delete
+hashchk
+isamchk
+Can't read record in system table
+Sort aborted
+Out of sort memory; increase server sort buffer size
+Too many connections
+Out of memory; check if mysqld or some other process uses all available memory; if not, you may have to use 'ulimit' to allow mysqld to use more memory or you can add more swap space
+Can't get hostname for your address
+Bad handshake
+No database selected
+Unknown command
+Server shutdown in progress
+Statement has sum functions and columns in same statement
+Column count doesn't match value count
+Query was empty
+Multiple primary key defined
+Incorrect table definition; there can be only one auto column and it must be defined as a key
+Can't create IP socket
+Field separator argument is not what is expected; check the manual
+You can't use fixed rowlength with BLOBs; please use 'fields terminated by'
+Incorrect sub part key; the used key part isn't a string, the used length is longer than the key part, or the storage engine doesn't support unique sub keys
+You can't delete all columns with ALTER TABLE; use DROP TABLE instead
+No tables used
+The SELECT would examine more than MAX_JOIN_SIZE rows; check your WHERE and use SET SQL_BIG_SELECTS=1 or SET SQL_MAX_JOIN_SIZE=# if the SELECT is okay
+Unknown error
+Invalid use of group function
+A table must have at least 1 column
+Too many columns
+Cross dependency found in OUTER JOIN; examine your ON conditions
+No paths allowed for shared library
+You are using MySQL as an anonymous user and anonymous users are not allowed to change passwords
+You must have privileges to update tables in the mysql database to be able to change passwords for others
+Can't find any matching row in the user table
+Invalid use of NULL value
+Mixing of GROUP columns (MIN(),MAX(),COUNT(),...) with no GROUP columns is illegal if there is no GROUP BY clause
+Illegal GRANT/REVOKE command; please consult the manual to see which privileges can be used
+The host or user argument to GRANT is too long
+The used command is not allowed with this MySQL version
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use
+Too many delayed threads in use
+Got a packet bigger than 'max_allowed_packet' bytes
+Got a read error from the connection pipe
+Got an error from fcntl()
+Got packets out of order
+Couldn't uncompress communication packet
+Got an error reading communication packets
+Got timeout reading communication packets
+Got an error writing communication packets
+Got timeout writing communication packets
+Result string is longer than 'max_allowed_packet' bytes
+The used table type doesn't support BLOB/TEXT columns
+The used table type doesn't support AUTO_INCREMENT columns
+Unable to open underlying table which is differently defined or of non-MyISAM type or doesn't exist
+All parts of a PRIMARY KEY must be NOT NULL; if you need NULL in a key, use UNIQUE instead
+Result consisted of more than one row
+This table type requires a primary key
+This version of MySQL is not compiled with RAID support
+You are using safe update mode and you tried to update a table without a WHERE that uses a KEY column
+Can't open table
+You are not allowed to execute this command in a transaction
+The storage engine for the table does not support binary table dump
+Binlog closed, cannot RESET MASTER
+Net error reading from master
+Net error writing to master
+Can't find FULLTEXT index matching the column list
+Can't execute the given command because you have active locked tables or an active transaction
+Some non-transactional changed tables couldn't be rolled back
+Multi-statement transaction required more than 'max_binlog_cache_size' bytes of storage; increase this mysqld variable and try again
+This operation cannot be performed with a running slave; run STOP SLAVE first
+This operation requires a running slave; configure slave and do START SLAVE
+The server is not configured as slave; fix in config file or with CHANGE MASTER TO
+Could not initialize master info structure; more error messages can be found in the MySQL error log
+Could not create slave thread; check system resources
+You may only use constant expressions with SET
+Lock wait timeout exceeded; try restarting transaction
+The total number of locks exceeds the lock table size
+Update locks cannot be acquired during a READ UNCOMMITTED transaction
+DROP DATABASE not allowed while thread is holding global read lock
+CREATE DATABASE not allowed while thread is holding global read lock
+Incorrect table definition; all MERGE tables must be in the same database
+Deadlock found when trying to get lock; try restarting transaction
+The used table type doesn't support FULLTEXT indexes
+Cannot add foreign key constraint
+Cannot add or update a child row  a foreign key constraint fails
+Cannot delete or update a parent row  a foreign key constraint fails
+The used SELECT statements have a different number of columns
+Can't execute the query because you have a conflicting read lock
+Mixing of transactional and non-transactional tables is disabled
+Slave SQL thread ignored the query because of replicate-*-table rules
+Key reference and table reference don't match
+Subquery returns more than 1 row
+Help database is corrupt or does not exist
+Cyclic reference on subqueries
+Every derived table must have its own alias
+Select %u was reduced during optimization
+Client does not support authentication protocol requested by server; consider upgrading MySQL client
+All parts of a SPATIAL index must be NOT NULL
+Slave is already running
+Slave already has been stopped
+ZLIB  Not enough memory
+ZLIB  Not enough room in the output buffer (probably, length of uncompressed data was corrupted)
+ZLIB  Input data corrupted
+Cannot drop one or more of the requested users
+Can't revoke all privileges for one or more of the requested users
+SSL parameters in CHANGE MASTER are ignored because this MySQL slave was compiled without SSL support; they can be used later if MySQL slave with SSL is started
+Incorrect parameter or combination of parameters for START SLAVE UNTIL
+It is recommended to use --skip-slave-start when doing step-by-step replication with START SLAVE UNTIL; otherwise, you will get problems if you get an unexpected slave's mysqld restart
+SQL thread is not to be started so UNTIL options are ignored
+MySQL is started in --skip-name-resolve mode; you must restart it without this switch for this grant to work
+Incorrect table definition; there can be only one TIMESTAMP column with CURRENT_TIMESTAMP in DEFAULT or ON UPDATE clause
+This command is not supported in the prepared statement protocol yet
+RETURN is only allowed in a FUNCTION
+The update log is deprecated and replaced by the binary log; SET SQL_LOG_UPDATE has been ignored
+The update log is deprecated and replaced by the binary log; SET SQL_LOG_UPDATE has been translated to SET SQL_LOG_BIN
+Query execution was interrupted
+Cursor statement must be a SELECT
+Cursor SELECT must not have INTO
+Cursor is already open
+Cursor is not open
+Incorrect number of FETCH variables
+No data - zero rows fetched, selected, or processed
+Subselect value not supported
+Variable or condition declaration after cursor or handler declaration
+Cursor declaration after handler declaration
+Case not found for CASE statement
+EXPLAIN/SHOW can not be issued; lacking privileges for underlying table
+View's SELECT contains a subquery in the FROM clause
+View's SELECT contains a variable or parameter
+View's SELECT and view's field list have different column counts
+View merge algorithm can't be used here for now (assumed undefined algorithm)
+View being updated does not have complete key of underlying table in it
+GOTO is not allowed in a stored procedure handler
+Trigger already exists
+Trigger does not exist
+Division by 0
+Target log not found in binlog index
+I/O error reading log index file
+Server configuration does not permit binlog purge
+Failed on fseek()
+Fatal error during log purge
+A purgeable log is in use, will not purge
+Unknown error during log purge
+You are not using binary logging
+WSAStartup Failed
+Can't handle procedures with different groups yet
+Select must have a group with this procedure
+Can't use ORDER clause with this procedure
+Prepared statement contains too many placeholders
+View text checksum failed
+XAER_NOTA  Unknown XID
+XAER_INVAL  Invalid arguments (or unsupported command)
+XAER_OUTSIDE  Some work is done outside global transaction
+XAER_RMERR  Fatal error occurred in the transaction branch - check your data for consistency
+XA_RBROLLBACK  Transaction branch was rolled back
+Failed to grant EXECUTE and ALTER ROUTINE privileges
+Failed to revoke all privileges to dropped routine
+Can't load value from file with fixed size rows to variable
+You are not allowed to create a user with GRANT
+Table definition has changed, please retry transaction
+Duplicate handler declared in the same block
+Cannot get geometry object from data you send to the GEOMETRY field
+A routine failed and has neither NO SQL nor READS SQL DATA in its declaration and binary logging is enabled; if non-transactional tables were updated, the binary log will miss their changes
+This function has none of DETERMINISTIC, NO SQL, or READS SQL DATA in its declaration and binary logging is enabled (you *might* want to use the less safe log_bin_trust_function_creators variable)
+You do not have the SUPER privilege and binary logging is enabled (you *might* want to use the less safe log_bin_trust_function_creators variable)
+You can't execute a prepared statement which has an open cursor associated with it. Reset the statement to re-execute it.
+Explicit or implicit commit is not allowed in stored function or trigger.
+Recursive stored functions and triggers are not allowed.
+Trigger in wrong schema
+Cannot drop default keycache
+XAER_DUPID  The XID already exists
+The prepared statement contains a stored routine call that refers to that same statement. It's not allowed to execute a prepared statement in such a recursive manner
+Not allowed to set autocommit from a stored function or trigger
+Definer is not fully qualified
+AGGREGATE is not supported for stored functions
+The used table type doesn't support SPATIAL indexes
+Triggers can not be created on system tables
+Failed to read auto-increment value from storage engine
+Too high level of nesting for select
+First character of the FIELDS TERMINATED string is ambiguous; please use non-optional and non-empty FIELDS ENCLOSED BY
+08S01
+0A000
+21S01
+2F003
+2F005
+3D000
+42S01
+42S02
+42S12
+42S21
+42S22
+HY000
+HY001
+XA100
+XAE03
+XAE04
+XAE05
+XAE07
+XAE08
+XAE09
+ER_HASHCHK
+ER_NISAMCHK
+ER_NO
+ER_YES
+ER_CANT_CREATE_FILE
+ER_CANT_CREATE_TABLE
+ER_CANT_CREATE_DB
+ER_DB_CREATE_EXISTS
+ER_DB_DROP_EXISTS
+ER_DB_DROP_DELETE
+ER_DB_DROP_RMDIR
+ER_CANT_DELETE_FILE
+ER_CANT_FIND_SYSTEM_REC
+ER_CANT_GET_STAT
+ER_CANT_GET_WD
+ER_CANT_LOCK
+ER_CANT_OPEN_FILE
+ER_FILE_NOT_FOUND
+ER_CANT_READ_DIR
+ER_CANT_SET_WD
+ER_CHECKREAD
+ER_DISK_FULL
+ER_DUP_KEY
+ER_ERROR_ON_CLOSE
+ER_ERROR_ON_READ
+ER_ERROR_ON_RENAME
+ER_ERROR_ON_WRITE
+ER_FILE_USED
+ER_FILSORT_ABORT
+ER_FORM_NOT_FOUND
+ER_GET_ERRNO
+ER_ILLEGAL_HA
+ER_KEY_NOT_FOUND
+ER_NOT_FORM_FILE
+ER_NOT_KEYFILE
+ER_OLD_KEYFILE
+ER_OPEN_AS_READONLY
+ER_OUTOFMEMORY
+ER_OUT_OF_SORTMEMORY
+ER_UNEXPECTED_EOF
+ER_CON_COUNT_ERROR
+ER_OUT_OF_RESOURCES
+ER_BAD_HOST_ERROR
+ER_HANDSHAKE_ERROR
+ER_DBACCESS_DENIED_ERROR
+ER_ACCESS_DENIED_ERROR
+ER_NO_DB_ERROR
+ER_UNKNOWN_COM_ERROR
+ER_BAD_NULL_ERROR
+ER_BAD_DB_ERROR
+ER_TABLE_EXISTS_ERROR
+ER_BAD_TABLE_ERROR
+ER_NON_UNIQ_ERROR
+ER_SERVER_SHUTDOWN
+ER_BAD_FIELD_ERROR
+ER_WRONG_FIELD_WITH_GROUP
+ER_WRONG_GROUP_FIELD
+ER_WRONG_SUM_SELECT
+ER_WRONG_VALUE_COUNT
+ER_TOO_LONG_IDENT
+ER_DUP_FIELDNAME
+ER_DUP_KEYNAME
+ER_DUP_ENTRY
+ER_WRONG_FIELD_SPEC
+ER_PARSE_ERROR
+ER_EMPTY_QUERY
+ER_NONUNIQ_TABLE
+ER_INVALID_DEFAULT
+ER_MULTIPLE_PRI_KEY
+ER_TOO_MANY_KEYS
+ER_TOO_MANY_KEY_PARTS
+ER_TOO_LONG_KEY
+ER_KEY_COLUMN_DOES_NOT_EXITS
+ER_BLOB_USED_AS_KEY
+ER_TOO_BIG_FIELDLENGTH
+ER_WRONG_AUTO_KEY
+ER_READY
+ER_NORMAL_SHUTDOWN
+ER_GOT_SIGNAL
+ER_SHUTDOWN_COMPLETE
+ER_FORCING_CLOSE
+ER_IPSOCK_ERROR
+ER_NO_SUCH_INDEX
+ER_WRONG_FIELD_TERMINATORS
+ER_BLOBS_AND_NO_TERMINATED
+ER_TEXTFILE_NOT_READABLE
+ER_FILE_EXISTS_ERROR
+ER_LOAD_INFO
+ER_ALTER_INFO
+ER_WRONG_SUB_KEY
+ER_CANT_REMOVE_ALL_FIELDS
+ER_CANT_DROP_FIELD_OR_KEY
+ER_INSERT_INFO
+ER_UPDATE_TABLE_USED
+ER_NO_SUCH_THREAD
+ER_KILL_DENIED_ERROR
+ER_NO_TABLES_USED
+ER_TOO_BIG_SET
+ER_NO_UNIQUE_LOGFILE
+ER_TABLE_NOT_LOCKED_FOR_WRITE
+ER_TABLE_NOT_LOCKED
+ER_BLOB_CANT_HAVE_DEFAULT
+ER_WRONG_DB_NAME
+ER_WRONG_TABLE_NAME
+ER_TOO_BIG_SELECT
+ER_UNKNOWN_ERROR
+ER_UNKNOWN_PROCEDURE
+ER_WRONG_PARAMCOUNT_TO_PROCEDURE
+ER_WRONG_PARAMETERS_TO_PROCEDURE
+ER_UNKNOWN_TABLE
+ER_FIELD_SPECIFIED_TWICE
+ER_INVALID_GROUP_FUNC_USE
+ER_UNSUPPORTED_EXTENSION
+ER_TABLE_MUST_HAVE_COLUMNS
+ER_RECORD_FILE_FULL
+ER_UNKNOWN_CHARACTER_SET
+ER_TOO_MANY_TABLES
+ER_TOO_MANY_FIELDS
+ER_TOO_BIG_ROWSIZE
+ER_STACK_OVERRUN
+ER_WRONG_OUTER_JOIN
+ER_NULL_COLUMN_IN_INDEX
+ER_CANT_FIND_UDF
+ER_CANT_INITIALIZE_UDF
+ER_UDF_NO_PATHS
+ER_UDF_EXISTS
+ER_CANT_OPEN_LIBRARY
+ER_CANT_FIND_DL_ENTRY
+ER_FUNCTION_NOT_DEFINED
+ER_HOST_IS_BLOCKED
+ER_HOST_NOT_PRIVILEGED
+ER_PASSWORD_ANONYMOUS_USER
+ER_PASSWORD_NOT_ALLOWED
+ER_PASSWORD_NO_MATCH
+ER_UPDATE_INFO
+ER_CANT_CREATE_THREAD
+ER_WRONG_VALUE_COUNT_ON_ROW
+ER_CANT_REOPEN_TABLE
+ER_INVALID_USE_OF_NULL
+ER_REGEXP_ERROR
+ER_MIX_OF_GROUP_FUNC_AND_FIELDS
+ER_NONEXISTING_GRANT
+ER_TABLEACCESS_DENIED_ERROR
+ER_COLUMNACCESS_DENIED_ERROR
+ER_ILLEGAL_GRANT_FOR_TABLE
+ER_GRANT_WRONG_HOST_OR_USER
+ER_NO_SUCH_TABLE
+ER_NONEXISTING_TABLE_GRANT
+ER_NOT_ALLOWED_COMMAND
+ER_SYNTAX_ERROR
+ER_DELAYED_CANT_CHANGE_LOCK
+ER_TOO_MANY_DELAYED_THREADS
+ER_ABORTING_CONNECTION
+ER_NET_PACKET_TOO_LARGE
+ER_NET_READ_ERROR_FROM_PIPE
+ER_NET_FCNTL_ERROR
+ER_NET_PACKETS_OUT_OF_ORDER
+ER_NET_UNCOMPRESS_ERROR
+ER_NET_READ_ERROR
+ER_NET_READ_INTERRUPTED
+ER_NET_ERROR_ON_WRITE
+ER_NET_WRITE_INTERRUPTED
+ER_TOO_LONG_STRING
+ER_TABLE_CANT_HANDLE_BLOB
+ER_TABLE_CANT_HANDLE_AUTO_INCREMENT
+ER_DELAYED_INSERT_TABLE_LOCKED
+ER_WRONG_COLUMN_NAME
+ER_WRONG_KEY_COLUMN
+ER_WRONG_MRG_TABLE
+ER_DUP_UNIQUE
+ER_BLOB_KEY_WITHOUT_LENGTH
+ER_PRIMARY_CANT_HAVE_NULL
+ER_TOO_MANY_ROWS
+ER_REQUIRES_PRIMARY_KEY
+ER_NO_RAID_COMPILED
+ER_UPDATE_WITHOUT_KEY_IN_SAFE_MODE
+ER_KEY_DOES_NOT_EXITS
+ER_CHECK_NO_SUCH_TABLE
+ER_CHECK_NOT_IMPLEMENTED
+ER_CANT_DO_THIS_DURING_AN_TRANSACTION
+ER_ERROR_DURING_COMMIT
+ER_ERROR_DURING_ROLLBACK
+ER_ERROR_DURING_FLUSH_LOGS
+ER_ERROR_DURING_CHECKPOINT
+ER_NEW_ABORTING_CONNECTION
+ER_DUMP_NOT_IMPLEMENTED
+ER_FLUSH_MASTER_BINLOG_CLOSED
+ER_INDEX_REBUILD
+ER_MASTER
+ER_MASTER_NET_READ
+ER_MASTER_NET_WRITE
+ER_FT_MATCHING_KEY_NOT_FOUND
+ER_LOCK_OR_ACTIVE_TRANSACTION
+ER_UNKNOWN_SYSTEM_VARIABLE
+ER_CRASHED_ON_USAGE
+ER_CRASHED_ON_REPAIR
+ER_WARNING_NOT_COMPLETE_ROLLBACK
+ER_TRANS_CACHE_FULL
+ER_SLAVE_MUST_STOP
+ER_SLAVE_NOT_RUNNING
+ER_BAD_SLAVE
+ER_MASTER_INFO
+ER_SLAVE_THREAD
+ER_TOO_MANY_USER_CONNECTIONS
+ER_SET_CONSTANTS_ONLY
+ER_LOCK_WAIT_TIMEOUT
+ER_LOCK_TABLE_FULL
+ER_READ_ONLY_TRANSACTION
+ER_DROP_DB_WITH_READ_LOCK
+ER_CREATE_DB_WITH_READ_LOCK
+ER_WRONG_ARGUMENTS
+ER_NO_PERMISSION_TO_CREATE_USER
+ER_UNION_TABLES_IN_DIFFERENT_DIR
+ER_LOCK_DEADLOCK
+ER_TABLE_CANT_HANDLE_FT
+ER_CANNOT_ADD_FOREIGN
+ER_NO_REFERENCED_ROW
+ER_ROW_IS_REFERENCED
+ER_CONNECT_TO_MASTER
+ER_QUERY_ON_MASTER
+ER_ERROR_WHEN_EXECUTING_COMMAND
+ER_WRONG_USAGE
+ER_WRONG_NUMBER_OF_COLUMNS_IN_SELECT
+ER_CANT_UPDATE_WITH_READLOCK
+ER_MIXING_NOT_ALLOWED
+ER_DUP_ARGUMENT
+ER_USER_LIMIT_REACHED
+ER_SPECIFIC_ACCESS_DENIED_ERROR
+ER_LOCAL_VARIABLE
+ER_GLOBAL_VARIABLE
+ER_NO_DEFAULT
+ER_WRONG_VALUE_FOR_VAR
+ER_WRONG_TYPE_FOR_VAR
+ER_VAR_CANT_BE_READ
+ER_CANT_USE_OPTION_HERE
+ER_NOT_SUPPORTED_YET
+ER_MASTER_FATAL_ERROR_READING_BINLOG
+ER_SLAVE_IGNORED_TABLE
+ER_INCORRECT_GLOBAL_LOCAL_VAR
+ER_WRONG_FK_DEF
+ER_KEY_REF_DO_NOT_MATCH_TABLE_REF
+ER_OPERAND_COLUMNS
+ER_SUBQUERY_NO_1_ROW
+ER_UNKNOWN_STMT_HANDLER
+ER_CORRUPT_HELP_DB
+ER_CYCLIC_REFERENCE
+ER_AUTO_CONVERT
+ER_ILLEGAL_REFERENCE
+ER_DERIVED_MUST_HAVE_ALIAS
+ER_SELECT_REDUCED
+ER_TABLENAME_NOT_ALLOWED_HERE
+ER_NOT_SUPPORTED_AUTH_MODE
+ER_SPATIAL_CANT_HAVE_NULL
+ER_COLLATION_CHARSET_MISMATCH
+ER_SLAVE_WAS_RUNNING
+ER_SLAVE_WAS_NOT_RUNNING
+ER_TOO_BIG_FOR_UNCOMPRESS
+ER_ZLIB_Z_MEM_ERROR
+ER_ZLIB_Z_BUF_ERROR
+ER_ZLIB_Z_DATA_ERROR
+ER_CUT_VALUE_GROUP_CONCAT
+ER_WARN_TOO_FEW_RECORDS
+ER_WARN_TOO_MANY_RECORDS
+ER_WARN_NULL_TO_NOTNULL
+ER_WARN_DATA_OUT_OF_RANGE
+WARN_DATA_TRUNCATED
+ER_WARN_USING_OTHER_HANDLER
+ER_CANT_AGGREGATE_2COLLATIONS
+ER_DROP_USER
+ER_REVOKE_GRANTS
+ER_CANT_AGGREGATE_3COLLATIONS
+ER_CANT_AGGREGATE_NCOLLATIONS
+ER_VARIABLE_IS_NOT_STRUCT
+ER_UNKNOWN_COLLATION
+ER_SLAVE_IGNORED_SSL_PARAMS
+ER_SERVER_IS_IN_SECURE_AUTH_MODE
+ER_WARN_FIELD_RESOLVED
+ER_BAD_SLAVE_UNTIL_COND
+ER_MISSING_SKIP_SLAVE
+ER_UNTIL_COND_IGNORED
+ER_WRONG_NAME_FOR_INDEX
+ER_WRONG_NAME_FOR_CATALOG
+ER_WARN_QC_RESIZE
+ER_BAD_FT_COLUMN
+ER_UNKNOWN_KEY_CACHE
+ER_WARN_HOSTNAME_WONT_WORK
+ER_UNKNOWN_STORAGE_ENGINE
+ER_WARN_DEPRECATED_SYNTAX
+ER_NON_UPDATABLE_TABLE
+ER_FEATURE_DISABLED
+ER_OPTION_PREVENTS_STATEMENT
+ER_DUPLICATED_VALUE_IN_TYPE
+ER_TRUNCATED_WRONG_VALUE
+ER_TOO_MUCH_AUTO_TIMESTAMP_COLS
+ER_INVALID_ON_UPDATE
+ER_UNSUPPORTED_PS
+ER_GET_ERRMSG
+ER_GET_TEMPORARY_ERRMSG
+ER_UNKNOWN_TIME_ZONE
+ER_WARN_INVALID_TIMESTAMP
+ER_INVALID_CHARACTER_STRING
+ER_WARN_ALLOWED_PACKET_OVERFLOWED
+ER_CONFLICTING_DECLARATIONS
+ER_SP_NO_RECURSIVE_CREATE
+ER_SP_ALREADY_EXISTS
+ER_SP_DOES_NOT_EXIST
+ER_SP_DROP_FAILED
+ER_SP_STORE_FAILED
+ER_SP_LILABEL_MISMATCH
+ER_SP_LABEL_REDEFINE
+ER_SP_LABEL_MISMATCH
+ER_SP_UNINIT_VAR
+ER_SP_BADSELECT
+ER_SP_BADRETURN
+ER_SP_BADSTATEMENT
+ER_UPDATE_LOG_DEPRECATED_IGNORED
+ER_UPDATE_LOG_DEPRECATED_TRANSLATED
+ER_QUERY_INTERRUPTED
+ER_SP_WRONG_NO_OF_ARGS
+ER_SP_COND_MISMATCH
+ER_SP_NORETURN
+ER_SP_NORETURNEND
+ER_SP_BAD_CURSOR_QUERY
+ER_SP_BAD_CURSOR_SELECT
+ER_SP_CURSOR_MISMATCH
+ER_SP_CURSOR_ALREADY_OPEN
+ER_SP_CURSOR_NOT_OPEN
+ER_SP_UNDECLARED_VAR
+ER_SP_WRONG_NO_OF_FETCH_ARGS
+ER_SP_FETCH_NO_DATA
+ER_SP_DUP_PARAM
+ER_SP_DUP_VAR
+ER_SP_DUP_COND
+ER_SP_DUP_CURS
+ER_SP_CANT_ALTER
+ER_SP_SUBSELECT_NYI
+ER_STMT_NOT_ALLOWED_IN_SF_OR_TRG
+ER_SP_VARCOND_AFTER_CURSHNDLR
+ER_SP_CURSOR_AFTER_HANDLER
+ER_SP_CASE_NOT_FOUND
+ER_FPARSER_TOO_BIG_FILE
+ER_FPARSER_BAD_HEADER
+ER_FPARSER_EOF_IN_COMMENT
+ER_FPARSER_ERROR_IN_PARAMETER
+ER_FPARSER_EOF_IN_UNKNOWN_PARAMETER
+ER_VIEW_NO_EXPLAIN
+ER_FRM_UNKNOWN_TYPE
+ER_WRONG_OBJECT
+ER_NONUPDATEABLE_COLUMN
+ER_VIEW_SELECT_DERIVED
+ER_VIEW_SELECT_CLAUSE
+ER_VIEW_SELECT_VARIABLE
+ER_VIEW_SELECT_TMPTABLE
+ER_VIEW_WRONG_LIST
+ER_WARN_VIEW_MERGE
+ER_WARN_VIEW_WITHOUT_KEY
+ER_VIEW_INVALID
+ER_SP_NO_DROP_SP
+ER_SP_GOTO_IN_HNDLR
+ER_TRG_ALREADY_EXISTS
+ER_TRG_DOES_NOT_EXIST
+ER_TRG_ON_VIEW_OR_TEMP_TABLE
+ER_TRG_CANT_CHANGE_ROW
+ER_TRG_NO_SUCH_ROW_IN_TRG
+ER_NO_DEFAULT_FOR_FIELD
+ER_DIVISION_BY_ZERO
+ER_TRUNCATED_WRONG_VALUE_FOR_FIELD
+ER_ILLEGAL_VALUE_FOR_TYPE
+ER_VIEW_NONUPD_CHECK
+ER_VIEW_CHECK_FAILED
+ER_PROCACCESS_DENIED_ERROR
+ER_RELAY_LOG_FAIL
+ER_PASSWD_LENGTH
+ER_UNKNOWN_TARGET_BINLOG
+ER_IO_ERR_LOG_INDEX_READ
+ER_BINLOG_PURGE_PROHIBITED
+ER_FSEEK_FAIL
+ER_BINLOG_PURGE_FATAL_ERR
+ER_LOG_IN_USE
+ER_LOG_PURGE_UNKNOWN_ERR
+ER_RELAY_LOG_INIT
+ER_NO_BINARY_LOGGING
+ER_RESERVED_SYNTAX
+ER_WSAS_FAILED
+ER_DIFF_GROUPS_PROC
+ER_NO_GROUP_FOR_PROC
+ER_ORDER_WITH_PROC
+ER_LOGGING_PROHIBIT_CHANGING_OF
+ER_NO_FILE_MAPPING
+ER_WRONG_MAGIC
+ER_PS_MANY_PARAM
+ER_KEY_PART_0
+ER_VIEW_CHECKSUM
+ER_VIEW_MULTIUPDATE
+ER_VIEW_NO_INSERT_FIELD_LIST
+ER_VIEW_DELETE_MERGE_VIEW
+ER_CANNOT_USER
+ER_XAER_NOTA
+ER_XAER_INVAL
+ER_XAER_RMFAIL
+ER_XAER_OUTSIDE
+ER_XAER_RMERR
+ER_XA_RBROLLBACK
+ER_NONEXISTING_PROC_GRANT
+ER_PROC_AUTO_GRANT_FAIL
+ER_PROC_AUTO_REVOKE_FAIL
+ER_DATA_TOO_LONG
+ER_SP_BAD_SQLSTATE
+ER_STARTUP
+ER_LOAD_FROM_FIXED_SIZE_ROWS_TO_VAR
+ER_CANT_CREATE_USER_WITH_GRANT
+ER_WRONG_VALUE_FOR_TYPE
+ER_TABLE_DEF_CHANGED
+ER_SP_DUP_HANDLER
+ER_SP_NOT_VAR_ARG
+ER_SP_NO_RETSET
+ER_CANT_CREATE_GEOMETRY_OBJECT
+ER_FAILED_ROUTINE_BREAK_BINLOG
+ER_BINLOG_UNSAFE_ROUTINE
+ER_BINLOG_CREATE_ROUTINE_NEED_SUPER
+ER_EXEC_STMT_WITH_OPEN_CURSOR
+ER_STMT_HAS_NO_OPEN_CURSOR
+ER_COMMIT_NOT_ALLOWED_IN_SF_OR_TRG
+ER_NO_DEFAULT_FOR_VIEW_FIELD
+ER_SP_NO_RECURSION
+ER_TOO_BIG_SCALE
+ER_TOO_BIG_PRECISION
+ER_M_BIGGER_THAN_D
+ER_WRONG_LOCK_OF_SYSTEM_TABLE
+ER_CONNECT_TO_FOREIGN_DATA_SOURCE
+ER_QUERY_ON_FOREIGN_DATA_SOURCE
+ER_FOREIGN_DATA_SOURCE_DOESNT_EXIST
+ER_FOREIGN_DATA_STRING_INVALID_CANT_CREATE
+ER_FOREIGN_DATA_STRING_INVALID
+ER_CANT_CREATE_FEDERATED_TABLE
+ER_TRG_IN_WRONG_SCHEMA
+ER_STACK_OVERRUN_NEED_MORE
+ER_TOO_LONG_BODY
+ER_WARN_CANT_DROP_DEFAULT_KEYCACHE
+ER_TOO_BIG_DISPLAYWIDTH
+ER_XAER_DUPID
+ER_DATETIME_FUNCTION_OVERFLOW
+ER_CANT_UPDATE_USED_TABLE_IN_SF_OR_TRG
+ER_VIEW_PREVENT_UPDATE
+ER_PS_NO_RECURSION
+ER_SP_CANT_SET_AUTOCOMMIT
+ER_MALFORMED_DEFINER
+ER_VIEW_FRM_NO_USER
+ER_VIEW_OTHER_USER
+ER_NO_SUCH_USER
+ER_FORBID_SCHEMA_CHANGE
+ER_ROW_IS_REFERENCED_2
+ER_NO_REFERENCED_ROW_2
+ER_SP_BAD_VAR_SHADOW
+ER_TRG_NO_DEFINER
+ER_OLD_FILE_FORMAT
+ER_SP_RECURSION_LIMIT
+ER_SP_PROC_TABLE_CORRUPT
+ER_SP_WRONG_NAME
+ER_TABLE_NEEDS_UPGRADE
+ER_SP_NO_AGGREGATE
+ER_MAX_PREPARED_STMT_COUNT_REACHED
+ER_VIEW_RECURSIVE
+ER_NON_GROUPING_FIELD_USED
+ER_TABLE_CANT_HANDLE_SPKEYS
+ER_NO_TRIGGERS_ON_SYSTEM_SCHEMA
+ER_REMOVED_SPACES
+ER_AUTOINC_READ_FAILED
+ER_USERNAME
+ER_HOSTNAME
+ER_WRONG_STRING_LENGTH
+ER_NON_INSERTABLE_TABLE
+ER_ADMIN_WRONG_MRG_TABLE
+ER_TOO_HIGH_LEVEL_OF_NESTING_FOR_SELECT
+ER_NAME_BECOMES_EMPTY
+ER_AMBIGUOUS_FIELD_TERM
+General warning
+Disconnect error
+Data truncated
+Privilege not revoked
+Invalid connection string attribute
+Error in row
+Option value changed
+No rows updated or deleted
+More than one row updated or deleted
+Cancel treated as FreeStmt/Close
+Attempt to fetch before the result returned the first rowset
+Wrong number of parameters
+Restricted data type attribute violation
+Invalid use of default paramater
+Unable to connect to data source
+Connection in use
+Connection not open
+Data source rejected establishment of connection
+Connection failure during transaction
+Communication link failure
+Insert value list does not match column list
+Degree of derived table does not match column list
+String data right truncation
+Indicator variable required but not supplied
+Numeric value out of range
+Error in assignment
+Datetime field overflow
+Division by zero
+String data, length mismatch
+Integrity constraint violation
+Invalid cursor state
+Invalid transaction state
+Invalid authorization specification
+Invalid cursor name
+Syntax error or access violation
+Duplicate cursor name
+Serialization failure
+Syntax error or access violation
+Operation aborted
+Driver does not support this function
+Data source name not found and no default driver specified
+Specified driver could not be loaded
+Driver's SQLAllocEnv failed
+Driver's SQLAllocConnect failed
+Driver's SQLSetConnectOption failed
+No data source or driver specified; dialog prohibited
+Dialog failed
+Unable to load translation DLL
+Data source name too long
+Driver name too long
+DRIVER keyword syntax error
+Trace file error
+Base table or view already exists
+Base table not found
+Index already exists
+Index not found
+Column already exists
+Column not found
+No default for column
+General error
+Memory allocation failure
+Invalid column number
+Program type out of range
+SQL data type out of range
+Operation canceled
+Invalid argument value
+Function sequence error
+Operation invalid at this time
+Invalid transaction operation code specified
+No cursor name available
+Invalid string or buffer length
+Descriptor type out of range
+Option type out of range
+Invalid parameter number
+Invalid scale value
+Function type out of range
+Information type out of range
+Column type out of range
+Scope type out of range
+Nullable type out of range
+Uniqueness option type out of range
+Accuracy option type out of range
+Direction option out of range
+Invalid precision value
+Invalid parameter type
+Fetch type out of range
+Row value out of range
+Concurrency option out of range
+Invalid cursor position
+Invalid driver completion
+Invalid bookmark value
+Driver not capable
+No data at execution values pending
+Timeout expired
+Access to database configured in the DSN has been denied. Default used.
+An error has occurred during an attempt to access the log file, logging disabled.
+Connected to backup server.
+Language configured in the DSN is not supported. Default used.
+Null bit data forced to zero.
+Procedure executed with 'EXEC'. No output parameters returned.
+SQL Debugging disabled.
+The ODBC catalog stored procedures installed on server %s are version %s; version %02d.%02d.%4.4d or later is required to ensure proper operation. Please contact your system administrator.
+Zero length data forced to length 1.
+Cursor concurrency changed.
+Cursor type changed.
+Packet size change not honored by server, server size used.
+Packet size changed.
+Login timeout changed.
+Conversions not allowed using bcp_moretext.
+Server rejected the connection; Access to selected database has been denied.
+Server rejected the connection; Language specified is not supported.
+Database is invalid or cannot be accessed.
+Packet size change not supported by server, default used.
+All bound columns are read-only.
+An old netlib (%s) has been detected. Please delete it and restart the application.
+Attempt to bulk-copy a NULL value into a Server column which does not accept NULL values.
+Attempt to bulk-copy an oversized column to the SQL Server.
+Attempt to read unknown version of BCP format file.
+Bad bulk-copy direction. Must be either IN or OUT.
+Bad terminator.
+Bcp host-files must contain at least one column.
+Cannot generate SSPI context.
+Cannot initialize SSPI package.
+Communication module is not valid. Driver has not been correctly installed.
+Connection is busy with results for another hstmt.
+Connection is not enabled for BCP.
+Failure during closing of connection.
+For BCP, all variable-length data must have either a length-prefix or a terminator specified.
+Host-file columns may be skipped only when copying into the server.
+Incorrect host-column number found in BCP format-file.
+I/O error while reading bcp data-file.
+I/O error while reading BCP format file.
+I/O error while writing bcp data-file.
+I/O error while writing bcp error-file.
+Invalid option.
+Non-default parameter not allowed after default parameter.
+Not enough columns bound.
+ODBC BCP/Driver version mismatch.
+Protocol error in TDS stream.
+Table contains less rows than first row count.
+Table contains less rows than last row count.
+Table has no text/image columns.
+TDS buffer length too large.
+Text column data incomplete.
+The BCP host-file contains less rows than first row count.
+The row length exceeds SQL Server's maximum allowable size.
+The stored procedure required to complete this operation could not be found on the server (they were supplied with SQL Server). Please contact your system administrator.
+Unable to load communication module. Driver has not been correctly installed.
+Unable to open BCP host data-file.
+Unable to open BCP error-file.
+Unable to read driver version.
+Unexpected EOF encountered in BCP data-file.
+Unicode conversion failed.
+Unicode conversion failed. The code page of the SQL server must be installed on the client system.
+Unknown token received from SQL Server.
+Warning: Partial insert/update. The insert/update of a text or image column(s) did not succeed.
+ORA-
