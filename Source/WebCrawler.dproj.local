@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>1899.12.30 00:00:00.000.936,=C:\Work\WebCrawlerXE\Source\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.849,=C:\Work\WebCrawlerXE\Source\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.780,=C:\Work\WebCrawlerXE\Source\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.593,C:\Work\WebCrawlerXE\Source\Unit1.pas=C:\Work\WebCrawlerXE\Source\uFormsSQL.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.201,C:\Work\WebCrawlerXE\Source\Unit1.pas=C:\Work\WebCrawlerXE\Source\uOptAuth.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.798,=C:\Work\WebCrawlerXE\Source\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.176,C:\Work\WebCrawlerXE\Source\uExtraOpt.pas=</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.323,C:\Work\WebCrawlerXE\Source\Unit2.pas=C:\Work\WebCrawlerXE\Source\uFormsXSS.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.877,=C:\Work\WebCrawlerXE\Source\Unit2.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.323,C:\Work\WebCrawlerXE\Source\Unit2.dfm=C:\Work\WebCrawlerXE\Source\uFormsXSS.dfm</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.744,C:\Work\WebCrawlerXE\Source\uExtraOpt.pas=C:\Work\WebCrawlerXE\Source\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.240,C:\Work\WebCrawlerXE\Source\uGroupsEdit.pas=C:\Work\WebCrawlerXE\Source\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.132,C:\Work\WebCrawlerXE\Source\uOptAuth.pas=</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.593,C:\Work\WebCrawlerXE\Source\Unit1.dfm=C:\Work\WebCrawlerXE\Source\uFormsSQL.dfm</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.240,C:\Work\WebCrawlerXE\Source\uGroupsEdit.dfm=C:\Work\WebCrawlerXE\Source\Unit1.dfm</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.692,C:\Work\WebCrawlerXE\Source\uRespForm.dfm=C:\Work\WebCrawlerXE\Source\Unit1.dfm</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.866,=C:\Work\WebCrawlerXE\Source\uValueEdit.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.201,C:\Work\WebCrawlerXE\Source\Unit1.dfm=C:\Work\WebCrawlerXE\Source\uOptAuth.dfm</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.190,C:\Work\WebCrawlerXE\Source\Unit1.dfm=C:\Work\WebCrawlerXE\Source\uParams.dfm</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.692,C:\Work\WebCrawlerXE\Source\uRespForm.pas=C:\Work\WebCrawlerXE\Source\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.190,C:\Work\WebCrawlerXE\Source\Unit1.pas=C:\Work\WebCrawlerXE\Source\uParams.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.019,=C:\Work\WebCrawlerXE\Source\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.996,=C:\Work\WebCrawlerXE\Source\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.744,C:\Work\WebCrawlerXE\Source\uExtraOpt.dfm=C:\Work\WebCrawlerXE\Source\Unit1.dfm</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.522,C:\Work\WebCrawlerXE\Source\uLibs.pas=C:\Work\WebCrawlerXE\Source\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.745,=C:\Work\WebCrawlerXE\Source\Unit1.pas</Transaction>
+  </Transactions>
+</BorlandProject>
